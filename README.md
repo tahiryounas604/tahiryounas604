@@ -1,9 +1,10 @@
 # Tahir Younas
 
 **Penetration Tester & Application Security Engineer | Ethical Hacker | Bug Bounty Hunter**
+
 Bugcrowd · HackerOne · Intigriti · YesWeHack · [LinkedIn](https://www.linkedin.com/in/tahiryounas604)
 
-Founder of **Tytechlabs**. I build professional security and developer tools and open-source them — **21 products, 726 automated tests, all GPL-3.0 licensed**, every repo green on CI.
+Founder of **Tytechlabs**. I build professional security and developer tools and open-source them — **23 products, 828 automated tests, all GPL-3.0 licensed**, every repo green on CI.
 
 ## Security tools
 
@@ -19,6 +20,7 @@ Founder of **Tytechlabs**. I build professional security and developer tools and
 | [canarydata](https://github.com/tahiryounas604/canarydata) | Data-leak attribution: per-recipient canary records identify whose copy of your data leaked | 16 |
 | [uptime-security-monitor](https://github.com/tahiryounas604/uptime-security-monitor) | Uptime, TLS expiry, defacement and security-header monitoring with webhook alerts (Go) | 33 |
 | [privchat](https://github.com/tahiryounas604/privchat) | Private messenger with NO phone number and NO email — username-only, E2EE chat, WebRTC audio/video calls | 20 |
+| [wifiguard](https://github.com/tahiryounas604/wifiguard) | Audit your own WiFi password: handshake capture, wordlist crack, plain-language strength verdict | 66 |
 
 ## AI, automation & media
 
@@ -26,23 +28,24 @@ Founder of **Tytechlabs**. I build professional security and developer tools and
 |---|---|---|
 | [aeo-radar](https://github.com/tahiryounas604/aeo-radar) | Measures brand visibility in AI search answers (ChatGPT, Perplexity) — visibility score & share of voice | 30 |
 | [clipmachine](https://github.com/tahiryounas604/clipmachine) | Turns long videos into vertical shorts automatically (ffmpeg) | 25 |
-| [youtube-automation](https://github.com/tahiryounas604/youtube-automation) | Script → voice → assemble → thumbnail → metadata → upload pipeline | 36 |
-| [social-automation](https://github.com/tahiryounas604/social-automation) | Self-hosted social post queue & scheduler for X, LinkedIn, Instagram, TikTok | 43 |
-| [auto-trading-bot](https://github.com/tahiryounas604/auto-trading-bot) | Strategy backtester + paper-trading engine with risk management, plus an MQL5 Expert Advisor | 62 |
-| [supportpilot](https://github.com/tahiryounas604/supportpilot) | Self-hosted support chatbot that answers from your own docs | 31 |
+| [youtube-automation](https://github.com/tahiryounas604/youtube-automation) | Script → voice → assembled video → scheduled upload, with a safety review step before publishing | 36 |
+| [social-automation](https://github.com/tahiryounas604/social-automation) | Self-hosted social post queue & scheduler for Facebook, Instagram, TikTok, LinkedIn and X | 43 |
+| [auto-trading-bot](https://github.com/tahiryounas604/auto-trading-bot) | Strategy backtester + paper-trading engine with exchange simulation, risk limits and a web dashboard | 62 |
+| [supportpilot](https://github.com/tahiryounas604/supportpilot) | Self-hosted support chatbot that answers from your own docs (RAG), with a human-handoff inbox | 31 |
+| [clipforge](https://github.com/tahiryounas604/clipforge) | GTA VI-ready stream clipper: chat-hype detection cuts ready-to-post 9:16 clips from your own VODs | 36 |
 
 ## Business & web
 
 | Project | What it does | Tests |
 |---|---|---|
-| [clienthunter](https://github.com/tahiryounas604/clienthunter) | Finds local businesses with no or weak websites (OpenStreetMap data) and scores the opportunity | 39 |
-| [usagemeter](https://github.com/tahiryounas604/usagemeter) | API usage metering & billing export — quotas, idempotent events, per-key usage | 33 |
-| [notrain](https://github.com/tahiryounas604/notrain) | AI-crawler control for websites: per-crawler robots.txt verdicts for 22 AI crawlers + change monitoring | 47 |
-| [ott-starter-kit](https://github.com/tahiryounas604/ott-starter-kit) | OTT platform starter: catalog backend, JWT auth, HLS playback, Roku / Android TV / Apple TV apps | 33 |
-| [self-hosted-video](https://github.com/tahiryounas604/self-hosted-video) | Self-hosted video platform: upload, transcode to HLS, token auth, web player | 11 |
+| [clienthunter](https://github.com/tahiryounas604/clienthunter) | Finds local businesses with no or weak websites, checks the site, then drafts outreach | 39 |
+| [usagemeter](https://github.com/tahiryounas604/usagemeter) | API usage metering & billing export — quotas, Stripe-compatible invoices, plan rules | 33 |
+| [notrain](https://github.com/tahiryounas604/notrain) | AI-crawler control for websites: per-crawler robots.txt, AI summaries and one-click deploy | 47 |
+| [ott-starter-kit](https://github.com/tahiryounas604/ott-starter-kit) | OTT platform starter: catalog, streaming and subscriptions (Go + React) | 33 |
+| [self-hosted-video](https://github.com/tahiryounas604/self-hosted-video) | Self-hosted video platform: uploads, transcoding (ffmpeg), playlists, stats | 11 |
 
 ## Also
 
-- **[tdm](https://github.com/tahiryounas604/tdm)** — Tytech Download Manager: a free, open-source download manager built for unstable connections (segmented downloads, bulletproof resume). CLI + mobile engine + browser extension, test evidence in [tdm-tests](https://github.com/tahiryounas604/tdm-tests).
+- **[tdm](https://github.com/tahiryounas604/tdm)** — Tytech Download Manager: a free, open-source download manager (Windows)
 
-Every project is tested before it is published — the test counts above are real, and each README documents its honest limits. Issues and PRs are welcome.
+Every project is tested before it is published — the test counts above are real, and each README documents what its tests cover.
